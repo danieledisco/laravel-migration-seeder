@@ -14,8 +14,3 @@ Creiamo una tabella trains con relativa Migration e Model Ogni treno dovrà aver
 
 È probabile che siano necessarie altre colonne per far funzionare la tabella nel modo corretto :wink:Inserite inizialmente i dati tramite PhpMyAdmin.
 Create Model relativo ed un Controller per mostrare nella home page tutti i treni che sono in partenza dalla data odierna.
-
-
-
-WHERE DATE = CURDATE()
-php artisan make:controller Guest/PageController
